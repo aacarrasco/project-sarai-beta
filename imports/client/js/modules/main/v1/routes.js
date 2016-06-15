@@ -1,5 +1,6 @@
 import * as Components from './../../comp-lib';
 import root from './pages/root.jsx';
+import carrasco from './pages/carrasco.jsx';
 
 export default (injectDeps, context) => {
   const {CLPage} = Components;
@@ -46,4 +47,5 @@ export default (injectDeps, context) => {
   ];
 
   root(PageCtx, context, {Components, links});
+  carrasco(PageCtx, context, {Components, links});
 };
